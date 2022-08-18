@@ -1,3 +1,5 @@
+package main;
+
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 public class MyString  {

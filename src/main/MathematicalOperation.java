@@ -1,3 +1,7 @@
+package main;
+
+import java.text.NumberFormat;
+
 public class MathematicalOperation {
     public static void main(String[] args) {
         // this one that takes in float returns int
@@ -22,11 +26,17 @@ public class MathematicalOperation {
         System.out.println("min " + min);
 
 
-
         // Random number generator
         double random = Math.random();
         System.out.println("random " + random);
         System.out.println("random2 " + Math.round(random * 100));
+
+        //Formatting currency date time etc
+         // this is an abstract class and can not be instantiated with new keyword
+        // so we need to use getInstance method to get an instance of the class. This is called factory method. Factory method is a method that creates an object of a class.
+         NumberFormat currency = NumberFormat.getCurrencyInstance();
+         System.out.println("currency " + currency.format(10002457000.00));
+         System.out.println("percent " + NumberFormat.getPercentInstance().format(0.1));
 
     }
 }
