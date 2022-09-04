@@ -41,10 +41,22 @@ public class Main {
         System.out.println(dateBool);
         date.getTime();
         System.out.println( "time-->" + date);
+        /*
+        * Example to demonstrate that primitive type is copied
+        * */
+        int x = 2;
+        int y = x;
+        x = x + 1;
+        System.out.println("Primitive x-> " + x + " primitive y-> " + y);
+
+        /*
+        * Example to demonstrate that reference types are passed by reference
+        * */
         Point point = new Point(1, 1);
         Point point2 = point;
+
         point.x = 2;
-        System.out.println();
+        System.out.println("Point 1" + point + " point 2-> " + point2);
 
 
         // Different between parameter and argument
