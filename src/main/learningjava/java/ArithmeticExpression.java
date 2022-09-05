@@ -1,4 +1,4 @@
-package main;
+package main.learningjava;
 
 public class ArithmeticExpression {
     public static void main(String[] args) {

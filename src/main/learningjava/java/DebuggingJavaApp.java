@@ -1,4 +1,4 @@
-package main;
+package main.learningjava;
 
 public class DebuggingJavaApp {
     public static void main(String[] args) {

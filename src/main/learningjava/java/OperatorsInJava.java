@@ -1,4 +1,4 @@
-package main;
+package main.learningjava;
 
 public class OperatorsInJava {
     public static void main(String[] args) {
