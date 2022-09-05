@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LearningWithMosh:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LearningWithMosh_jar</output-path>
+    <root id="archive" name="LearningWithMosh.jar">
+      <element id="module-output" name="LearningWithMosh" />
+    </root>
+  </artifact>
+</component>
