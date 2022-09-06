@@ -1,14 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LearningWithMosh:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="" />
+    <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/OopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ProceduralProgramming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/EncapsulationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningWithMosh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningWithMosh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/ArithmeticExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/ArithmeticExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/CompileTimeErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/CompileTimeErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/DebuggingJavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/DebuggingJavaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/DivisibleExercie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/DivisibleExercie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/InterestMonthlyPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/InterestMonthlyPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/LearningMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/LearningMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MathematicalOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MathematicalOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/OperatorsInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/OperatorsInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/PackagingJavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/PackagingJavaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/ReadingInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/ReadingInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TextBox.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2D8eDNdfnT98Yd8kqM3HhjMK1KB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,10 +72,109 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/Users/apple/IdeaProjects/LearningWithMosh",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="main" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main.learningjava.oop.encapsulation.EncapsulationMain">
+    <configuration name="OopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.OopMain" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.oop.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProceduralProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.ProceduralProgramming" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.oop.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.learningjava.java.DebuggingJavaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.DebuggingJavaApp" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.learningjava.java.InterestMonthlyPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.InterestMonthlyPayment" />
+      <module name="LearningWithMosh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.learningjava.oop.encapsulation.EncapsulationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.encapsulation.EncapsulationMain" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.oop.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main.learningjava.oop.encapsulation.EncapsulationMain" />
+        <item itemvalue="Application.main.learningjava.oop.ProceduralProgramming" />
+        <item itemvalue="Application.main.learningjava.oop.OopMain" />
+        <item itemvalue="Application.main.learningjava.java.DebuggingJavaApp" />
+        <item itemvalue="Application.main.learningjava.java.InterestMonthlyPayment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +185,16 @@
       <updated>1660085025164</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
