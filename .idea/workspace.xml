@@ -10,31 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/OopMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ProceduralProgramming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/EncapsulationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningWithMosh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningWithMosh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/ArithmeticExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/ArithmeticExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/CompileTimeErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/CompileTimeErrors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/DebuggingJavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/DebuggingJavaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/DivisibleExercie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/DivisibleExercie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/InterestMonthlyPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/InterestMonthlyPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/LearningMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/LearningMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MathematicalOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MathematicalOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MyString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/OperatorsInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/OperatorsInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/PackagingJavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/PackagingJavaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/ReadingInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/ReadingInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/EncapsulationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/encapsulation/EncapsulationMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
