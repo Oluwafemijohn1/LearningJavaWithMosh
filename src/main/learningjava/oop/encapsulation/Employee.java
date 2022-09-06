@@ -1,6 +1,6 @@
 package main.learningjava.oop.encapsulation;
 
-public class Encapsulation {
+public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
@@ -15,7 +15,7 @@ public class Encapsulation {
             throw new IllegalArgumentException("Salary cannot be 0 or less.");
         this.baseSalary = baseSalary;
     }
-    public int getBaseSalary() {
+    private int getBaseSalary() {
         return baseSalary;
     }
     public void setHourlyRate(int hourlyRate) {
@@ -23,7 +23,7 @@ public class Encapsulation {
             throw new IllegalArgumentException("Hourly rate cannot be 0 or less.");
         this.hourlyRate = hourlyRate;
     }
-    public int getHourlyRate() {
+    private int getHourlyRate() {
         return hourlyRate;
     }
 }

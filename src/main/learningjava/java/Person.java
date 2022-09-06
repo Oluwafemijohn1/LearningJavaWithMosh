@@ -1,4 +1,4 @@
-package main.learningjava;
+package main.learningjava.java;
 
 public class Person {
     public String hello() {

@@ -1,4 +1,4 @@
-package main.learningjava;
+package main.learningjava.java;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;

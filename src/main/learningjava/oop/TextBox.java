@@ -1,2 +1,11 @@
-package main.learningjava.oop;public class TextBox {
+package main.learningjava.oop;
+
+public class TextBox {
+    public String text = "";
+    public void setText(String text) {
+        this.text = text;
+    }
+    public void clear() {
+        text = "";
+    }
 }
