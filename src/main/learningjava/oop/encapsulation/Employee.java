@@ -4,13 +4,25 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
+    public static int numberOfEmployees;
+
+    /**
+     * Instance members are accessible inside the object
+     * static members are accessible inside the class
+     * Static methods can only be accessed by static members
+     * */
     public Employee(int baseSalary, int hourlyRate) {
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);
+        numberOfEmployees++;
     }
 
     public Employee(int baseSalary) {
         this(baseSalary, 0);
+    }
+
+    public static void printNumberOfEmployees() {
+        System.out.println(numberOfEmployees);
     }
 
     public int calculateWage(int extraHours) {
