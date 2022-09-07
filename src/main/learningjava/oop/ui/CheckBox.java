@@ -14,6 +14,12 @@ public class CheckBox extends UIControl {
     public boolean isChecked() {
         return isChecked;
     }
+
+    @Override
+    public void render() {
+//        super.render();
+        System.out.println("Render CheckBox");
+    }
 }
 
 

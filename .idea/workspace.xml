@@ -10,16 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControlMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/OopMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/OopMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/CheckBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/TextBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/OopMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/OopMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/TextBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/TextBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/UIControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/UIControl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,20 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.learningjava.oop.ui.OopMain">
-    <configuration name="DebuggingJavaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.DebuggingJavaApp" />
-      <module name="LearningWithMosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.java.mortgage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UIControlMain">
     <configuration name="InterestMonthlyPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.java.mortgage.InterestMonthlyPayment" />
       <module name="LearningWithMosh" />
@@ -122,6 +102,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.learningjava.oop.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIControlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.ui.UIControlMain" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.oop.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UIControlMain" />
         <item itemvalue="Application.main.learningjava.oop.ui.OopMain" />
         <item itemvalue="Application.main.learningjava.java.InterestMonthlyPayment" />
         <item itemvalue="Application.main.learningjava.oop.encapsulation.EncapsulationMain" />
         <item itemvalue="Application.main.learningjava.oop.ProceduralProgramming" />
-        <item itemvalue="Application.main.learningjava.java.DebuggingJavaApp" />
       </list>
     </recent_temporary>
   </component>
