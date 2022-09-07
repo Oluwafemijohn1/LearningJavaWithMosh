@@ -10,7 +10,8 @@ public abstract class UIControl {
     }
 
 
-    public void enable() {
+    //this methode can not be overriden by the child class because it is final
+    public final void enable() {
         this.isEnabled = true;
     }
 
