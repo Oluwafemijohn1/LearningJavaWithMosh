@@ -127,7 +127,7 @@ public class EncapsulationMain {
     //What is static method?
     /**
      * A static method is a method that is bound to the class and not the object of a class.
-     * A static method can be invoked without the need for creating an instance of a class.
+     * A static meth`od can be invoked without the need for creating an instance of a class.
      * A static method can access static data member and can change the value of it.
      * */
 
