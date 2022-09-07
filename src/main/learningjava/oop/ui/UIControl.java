@@ -1,6 +1,6 @@
 package main.learningjava.oop.ui;
 
-public class UIControl {
+public abstract class UIControl {
 
     private boolean isEnabled = true;
 
@@ -22,6 +22,5 @@ public class UIControl {
         return isEnabled;
     }
 
-    public void render() {
-    }
+    public abstract void render();
 }

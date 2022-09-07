@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/OopMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/OopMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControlMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControlMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

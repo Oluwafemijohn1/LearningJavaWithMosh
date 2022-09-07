@@ -14,13 +14,13 @@ public class OopMain {
 
     public static void main(String[] args) {
         var textBox1 = new TextBox();
-        var control = new UIControl(true);
-        var control2 = control;
-        System.out.println(control.equals(control2));
-        show(control);
+//        var control = new UIControl(true);
+//        var control2 = control;
+//        System.out.println(control.equals(control2));
+//        show(control);
         var point = new Point(1, 2);
         var point2 = new Point(1, 2);
-        System.out.println(point.equals(control));
+//        System.out.println(point.equals(control));
     }
     //Upcasting and Downcasting
     //Upcasting is when you assign a subclass to a superclass.
