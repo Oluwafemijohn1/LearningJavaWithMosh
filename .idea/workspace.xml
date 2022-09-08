@@ -10,9 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator2022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/TextBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControlMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/ui/UIControlMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/OopMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/OopMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/TextBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/TextBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/UIControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/UIControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/UIControlMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/ui/UIControlMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -89,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UIControlMain">
+  <component name="RunManager" selected="Application.TaxMain">
     <configuration name="InterestMonthlyPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.java.mortgage.InterestMonthlyPayment" />
       <module name="LearningWithMosh" />
@@ -97,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProceduralProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.ProceduralProgramming" />
+    <configuration name="TaxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.TaxCalculator.TaxMain" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.learningjava.oop.encapsulation.*" />
+          <option name="PATTERN" value="main.learningjava.oop.TaxCalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaxMain" />
         <item itemvalue="Application.UIControlMain" />
         <item itemvalue="Application.main.learningjava.oop.ui.OopMain" />
         <item itemvalue="Application.main.learningjava.java.InterestMonthlyPayment" />
         <item itemvalue="Application.main.learningjava.oop.encapsulation.EncapsulationMain" />
-        <item itemvalue="Application.main.learningjava.oop.ProceduralProgramming" />
       </list>
     </recent_temporary>
   </component>
