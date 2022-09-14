@@ -10,10 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator2019.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator2022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator2018.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/interfaceSegregation/Draggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/interfaceSegregation/Dragger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/interfaceSegregation/Resizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/interfaceSegregation/UIWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/SqlDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/TubeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/VideoDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/VideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/VideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/oop/myTube/XVideoEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxReport.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +41,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,7 +77,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/apple/IdeaProjects/LearningWithMosh",
+    "last_opened_file_path": "/Users/apple/IdeaProjects/LearningWithMosh/src/main/learningjava/oop/myTube",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -70,6 +86,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/learningjava/oop/myTube" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -81,6 +98,8 @@
       <recent name="main.learningjava.java.mortgage.Console" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="main.learningjava.oop.myTube" />
+      <recent name="main.learningjava.oop.interfaceSegregation" />
       <recent name="main.learningjava.oop" />
       <recent name="" />
     </key>
@@ -94,6 +113,18 @@
     <configuration name="InterestMonthlyPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.java.mortgage.InterestMonthlyPayment" />
       <module name="LearningWithMosh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.TaxCalculator.TaxMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.oop.TaxCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,19 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.learningjava.oop.encapsulation.EncapsulationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.encapsulation.EncapsulationMain" />
-      <module name="LearningWithMosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.oop.encapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main.learningjava.oop.ui.OopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.ui.OopMain" />
       <module name="LearningWithMosh" />
@@ -153,10 +171,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main.learningjava.oop.TaxCalculator.TaxMain" />
+        <item itemvalue="Application.TaxMain" />
         <item itemvalue="Application.UIControlMain" />
         <item itemvalue="Application.main.learningjava.oop.ui.OopMain" />
-        <item itemvalue="Application.main.learningjava.java.InterestMonthlyPayment" />
-        <item itemvalue="Application.main.learningjava.oop.encapsulation.EncapsulationMain" />
       </list>
     </recent_temporary>
   </component>
