@@ -1,5 +1,6 @@
 package main.learningjava.java.mortgage;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Console {
@@ -19,8 +20,8 @@ public class Console {
             try {
 
             number = scanner.nextDouble();
-            } catch (Exception e) {
-                System.out.println("Invalid input"  );
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input");
                 number = scanner.nextDouble();
             }
             if(number >= min  &&  number <= max)
