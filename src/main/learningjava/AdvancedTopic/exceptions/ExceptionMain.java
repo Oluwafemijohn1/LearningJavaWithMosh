@@ -20,7 +20,6 @@ public class ExceptionMain {
         try {
             Account.deposit(-1);
         } catch ( Throwable e) {
-//            e.printStackTrace();
             System.out.println("Logging");
         }
 
@@ -28,10 +27,10 @@ public class ExceptionMain {
 
         try {
             account.withdraw(10);
-        } catch (InsufficientFundsException e) {
-            System.out.println(e.getMessage());
         }
-
-
+        catch (AccountException e) {
+            var cause = e.getCause();
+            System.out.println(cause.getMessage());
+        }
     }
 }

@@ -12,8 +12,18 @@ public class Account {
             throw new IOException();
     }
 
-    public void withdraw(float amount) throws InsufficientFundsException {
-        if (amount > balance)
-            throw new InsufficientFundsException();
+    public void withdraw(float amount) throws AccountException {
+        if (amount > balance){
+//            var insufficientFundsException = new InsufficientFundsException();
+//            var accountException = new AccountException();
+//            accountException.initCause(insufficientFundsException);
+//            throw accountException;
+
+            /**
+             * A more better way to do this is to use the constructor of the AccountException class.
+             * THIS IS CALLED CHAINING EXCEPTIONS
+             * */
+            throw new AccountException(new InsufficientFundsException());
+        }
     }
 }
