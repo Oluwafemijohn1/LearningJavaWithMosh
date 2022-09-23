@@ -35,7 +35,28 @@ public class ExceptionsDemo {
 //    }
 
 
-    public static void show(){
+//    public static void show(){
+////        sayHello("jf");
+////        FileReader reader = null;
+//
+//        /**
+//         * Using external resources in try catch block
+//         * */
+//        try (
+//                var reader = new FileReader("file.txt");
+//                var writer = new FileWriter("...");
+//        ) {
+//            reader.read();
+//            new SimpleDateFormat().parse("01/01/2020");
+//
+//        } catch (IOException | ParseException e) {
+////            System.out.println("Could not open file");
+//            System.out.println(e.getMessage());
+//
+//        }
+//    }
+
+    public static void show() throws IOException {
 //        sayHello("jf");
 //        FileReader reader = null;
 
@@ -47,12 +68,12 @@ public class ExceptionsDemo {
                 var writer = new FileWriter("...");
         ) {
             reader.read();
-            new SimpleDateFormat().parse("01/01/2020");
+//            new SimpleDateFormat().parse("01/01/2020");
 
-        } catch (IOException | ParseException e) {
-//            System.out.println("Could not open file");
+        } catch (IOException e) {
+            System.out.println("Logging");
             System.out.println(e.getMessage());
-
+            throw e;
         }
     }
 

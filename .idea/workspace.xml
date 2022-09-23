@@ -10,17 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/ExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/ExceptionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvanceTopicLinkedIn/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvanceTopicLinkedIn/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvanceTopicLinkedIn/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvanceTopicLinkedIn/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/mortgage/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/mortgage/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator2018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxCalculator2018.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/oop/TaxCalculator/TaxMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxCalculator2018.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxCalculator2018.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/oop/TaxCalculator/TaxMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/ExceptionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/ExceptionMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/exceptions/ExceptionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/exceptions/ExceptionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/exceptions/ExceptionMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/exceptions/ExceptionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/exceptions/ExceptionsDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ExceptionMain">
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvanceTopicLinkedIn.C" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.AdvanceTopicLinkedIn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.exceptions.ExceptionMain" />
       <module name="LearningWithMosh" />
@@ -127,24 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.TaxCalculator.TaxMain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.oop.TaxCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UIControlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.oop.ui.UIControlMain" />
+    <configuration name="main.learningjava.java.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.Test" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.learningjava.oop.ui.*" />
+          <option name="PATTERN" value="main.learningjava.AdvanceTopicLinkedIn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExceptionMain" />
+        <item itemvalue="Application.main.learningjava.java.C" />
+        <item itemvalue="Application.main.learningjava.java.Test" />
         <item itemvalue="Application.InterestMonthlyPayment" />
         <item itemvalue="Application.main.learningjava.oop.TaxCalculator.TaxMain" />
-        <item itemvalue="Application.TaxMain" />
-        <item itemvalue="Application.UIControlMain" />
       </list>
     </recent_temporary>
   </component>
