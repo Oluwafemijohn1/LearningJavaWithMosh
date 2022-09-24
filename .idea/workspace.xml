@@ -10,18 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/CollectionsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericListWithRestrictions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/KeyValuePair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/UserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/exceptions/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/exceptions/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/CollectionsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/CollectionsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +95,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsMain">
+  <component name="RunManager" selected="Application.CollectionsMain">
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvanceTopicLinkedIn.C" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.learningjava.AdvanceTopicLinkedIn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.collections.CollectionsMain" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.AdvancedTopic.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterestMonthlyPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.mortgage.InterestMonthlyPayment" />
-      <module name="LearningWithMosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.java.mortgage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main.learningjava.java.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.java.Test" />
       <module name="LearningWithMosh" />
@@ -169,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsMain" />
         <item itemvalue="Application.GenericsMain" />
         <item itemvalue="Application.ExceptionMain" />
         <item itemvalue="Application.main.learningjava.java.C" />
         <item itemvalue="Application.main.learningjava.java.Test" />
-        <item itemvalue="Application.InterestMonthlyPayment" />
       </list>
     </recent_temporary>
   </component>
