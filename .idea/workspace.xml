@@ -10,12 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/EmailComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/SetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/CollectionsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/CollectionsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/generics/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/CollectionsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/CollectionsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericList$ListIterator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
