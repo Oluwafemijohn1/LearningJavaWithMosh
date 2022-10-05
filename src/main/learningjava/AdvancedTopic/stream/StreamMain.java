@@ -7,7 +7,8 @@ public class StreamMain {
 //        GettingUniqueElement.show();
 //        PeekStream.show();
 //        ReducersStream.show();
-        CollectorStream.show();
+//        CollectorStream.show();
+        GroupingElement.show();
     }
 
 
