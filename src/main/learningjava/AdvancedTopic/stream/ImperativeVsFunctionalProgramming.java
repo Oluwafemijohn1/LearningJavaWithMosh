@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ImperativeVsFunctionalProgramming  {
       public static void show() {
-            var movies = List.of(new Movie("c", 10), new Movie("b", 20), new Movie("a", 30));
+            var movies = List.of(new Movie("c", 10, Genre.COMEDY), new Movie("b", 20, Genre.ACTION), new Movie("a", 30, Genre.LOVE));
 
             // Imperative programming -> tell the computer how it should be done
             int count = 0;

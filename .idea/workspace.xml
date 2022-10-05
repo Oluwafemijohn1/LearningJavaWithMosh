@@ -10,32 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/BinaryOperatorInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/BuiltInFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/CombinePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/ConsumerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/FunctionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/LambdaAndMethodReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/LambdaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/PredicateInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/SupplierInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/lambda/UnaryOperatorInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/CreatingStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/FilterWithStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/FlatMapWithStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/GettingUniqueElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/ImperativeVsFunctionalProgramming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/MappingElementWithStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/PeekStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/SlicingStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/SortingStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/CollectorStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/ReducersStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/collections/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/MapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/FilterWithStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/FilterWithStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/GettingUniqueElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/GettingUniqueElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/ImperativeVsFunctionalProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/ImperativeVsFunctionalProgramming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/MappingElementWithStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/MappingElementWithStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/PeekStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/PeekStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/SlicingStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/SlicingStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/SortingStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/SortingStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/StreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/StreamMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/StreamMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/StreamMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

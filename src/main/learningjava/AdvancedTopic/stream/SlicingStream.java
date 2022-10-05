@@ -4,7 +4,10 @@ import java.util.List;
 
 public class SlicingStream {
     public static void show() {
-        var movies = List.of(new Movie("a", 10), new Movie("b", 20), new Movie("c", 30));
+        var movies = List.of(
+                new Movie("a", 10, Genre.HORROR),
+                new Movie("b", 20, Genre.HORROR),
+                new Movie("c", 30, Genre.ACTION));
         movies.stream()
                 //Used for Pagination
                 // 1000 movies in the database

@@ -5,10 +5,10 @@ import java.util.List;
 public class GettingUniqueElement {
     public static void show() {
         var movies = List.of(
-                new Movie("c", 10),
-                new Movie("b", 20),
-                new Movie("a", 30),
-                new Movie("a", 30)
+                new Movie("c", 10, Genre.THRILLER),
+                new Movie("b", 20, Genre.COMEDY),
+                new Movie("a", 30, Genre.THRILLER),
+                new Movie("a", 30, Genre.HORROR)
         );
 
         movies.stream()

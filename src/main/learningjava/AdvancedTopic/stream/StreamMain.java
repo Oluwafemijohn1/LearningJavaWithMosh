@@ -5,7 +5,10 @@ public class StreamMain {
 //        ImperativeVsFunctionalProgramming.show();
 //        SortingStream.show();
 //        GettingUniqueElement.show();
-        PeekStream.show();
+//        PeekStream.show();
+//        ReducersStream.show();
+        CollectorStream.show();
     }
+
 
 }

@@ -5,7 +5,10 @@ import java.util.List;
 
 public class SortingStream {
     public static void show(){
-        var movies = List.of(new Movie("c", 10), new Movie("b", 20), new Movie("a", 30));
+        var movies = List.of(
+                new Movie("c", 10, Genre.LOVE),
+                new Movie("b", 20, Genre.LOVE),
+                new Movie("a", 30, Genre.COMEDY));
         movies.stream()
 //                .sorted((a, b) -> a.getTitle().compareTo(b.getTitle()))
                 .sorted(Comparator.comparing(Movie::getTitle))

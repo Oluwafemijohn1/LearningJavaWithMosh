@@ -4,7 +4,7 @@ import java.util.List;
 
 public class MappingElementWithStream {
     public static void show(){
-        var movies = List.of(new Movie("a", 10), new Movie("b", 20), new Movie("c", 30));
+        var movies = List.of(new Movie("a", 10, Genre.COMEDY), new Movie("b", 20, Genre.LOVE), new Movie("c", 30, Genre.ACTION));
         movies.stream()
                 .map(movie -> movie.getTitle())
                 .forEach(System.out::println);

@@ -5,10 +5,10 @@ import java.util.List;
 public class PeekStream {
     public static void show() {
         var movies = List.of(
-                new Movie("c", 10),
-                new Movie("b", 20),
-                new Movie("a", 30),
-                new Movie("a", 30)
+                new Movie("c", 10, Genre.COMEDY),
+                new Movie("b", 20, Genre.HORROR),
+                new Movie("a", 30, Genre.THRILLER),
+                new Movie("a", 30, Genre.ACTION)
         );
 
         movies.stream()
