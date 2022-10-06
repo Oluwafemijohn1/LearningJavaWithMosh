@@ -10,20 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/GroupingElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/PartitioningStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/StreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/stream/StreamMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/CollectorStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/CollectorStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/FilterWithStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/FilterWithStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GettingUniqueElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GettingUniqueElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/ImperativeVsFunctionalProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/ImperativeVsFunctionalProgramming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/MappingElementWithStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/MappingElementWithStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/ReducersStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/ReducersStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/SlicingStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/SlicingStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/SortingStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/SortingStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/StreamMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/StreamMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GroupingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GroupingElement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +71,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.learningjava.AdvancedTopic.concurrency" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/learningjava/oop/myTube" />
       <recent name="$PROJECT_DIR$" />
@@ -104,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamMain">
+  <component name="RunManager" selected="Application.ConcurrencyAndThreadingMain">
     <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.collections.CollectionsMain" />
       <module name="LearningWithMosh" />
@@ -118,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.exceptions.ExceptionMain" />
+    <configuration name="ConcurrencyAndThreadingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.learningjava.AdvancedTopic.exceptions.*" />
+          <option name="PATTERN" value="main.learningjava.AdvancedTopic.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrencyAndThreadingMain" />
         <item itemvalue="Application.StreamMain" />
         <item itemvalue="Application.main.learningjava.AdvancedTopic.lambda.LambdaMain" />
         <item itemvalue="Application.CollectionsMain" />
         <item itemvalue="Application.GenericsMain" />
-        <item itemvalue="Application.ExceptionMain" />
       </list>
     </recent_temporary>
   </component>
