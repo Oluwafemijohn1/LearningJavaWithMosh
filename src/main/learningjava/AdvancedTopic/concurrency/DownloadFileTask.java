@@ -11,6 +11,9 @@ public class DownloadFileTask implements Runnable {
         this.status = new DownloadStatus();
     }
 
+    public DownloadFileTask(DownloadStatus status) {
+        this.status = status;
+    }
     public DownloadFileTask(DownloadStatus status, boolean isLocked) {
         this.status = status;
         this.isLocked = isLocked;
@@ -39,7 +42,7 @@ public class DownloadFileTask implements Runnable {
 //        System.out.println("Download complete: " + Thread.currentThread().getName());
 
         //Simulating downloading a file
-      for(int i = 0; i < 10_000; i++) {
+      for(int i = 0; i < 10_000_000; i++) {
           if (Thread.currentThread().isInterrupted()) return;
           if(status != null && isLocked)
               status.incrementTotalBytesLock();
@@ -51,6 +54,9 @@ public class DownloadFileTask implements Runnable {
               System.out.println("Downloading byte: " + i);
 
       }
+
+        assert status != null;
+        status.setDone();
         System.out.println("Download complete: " + Thread.currentThread().getName());
     }
 

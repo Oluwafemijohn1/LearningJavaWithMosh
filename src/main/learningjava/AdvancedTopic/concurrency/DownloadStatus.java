@@ -5,10 +5,16 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class DownloadStatus {
     private int totalBytes;
+    private  int totalFiles;
     private Lock lock = new ReentrantLock();
-    public int getTotalBytes() {
-        return totalBytes;
-    }
+
+    private volatile boolean isDone;
+
+    //using dedicated monitor object, the use of this as a monitor object is a bad practice because
+    // two threads can not access the same object at the same time
+    private final Object totalBytesLock = new Object();
+    private final Object totalFilesLock = new Object();
+
 
     public void incrementTotalBytes() {
         totalBytes++;
@@ -29,16 +35,31 @@ public class DownloadStatus {
     }
 
     public  void incrementTotalBytesSync() {
-        synchronized (this) {
+        synchronized (totalBytesLock) {
             totalBytes++;
         }
     }
 
-//    public int getTotalFiles() {
-//        return totalFiles;
-//    }
-//
-//    public void incrementTotalFiles() {
-//        totalFiles++;
-//    }
+    public void incrementTotalFiles() {
+        synchronized (totalFilesLock) {
+            totalFiles++;
+        }
+    }
+
+    public int getTotalBytes() {
+        return totalBytes;
+    }
+
+    public int getTotalFiles() {
+        return totalFiles;
+    }
+
+    public boolean isDone() {
+        return isDone;
+    }
+
+    public void setDone() {
+        isDone = true;
+    }
+
 }

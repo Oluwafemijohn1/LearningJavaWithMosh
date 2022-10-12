@@ -13,7 +13,8 @@ public class ConcurrencyAndThreadingMain {
 //        RaceCondition.show();
 //        ConfinementThreadSafe.show();
 //        LocksThreadSafe.show();
-        SynchronizedThreadSafe.show();
+//        SynchronizedThreadSafe.show();
+        VolatileKeywordThreadSafe.show();
     }
 
 }
