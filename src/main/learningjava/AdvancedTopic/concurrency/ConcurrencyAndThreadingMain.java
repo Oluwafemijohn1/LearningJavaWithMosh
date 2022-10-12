@@ -10,7 +10,9 @@ public class ConcurrencyAndThreadingMain {
 //        ThreadDemo.show();
 //        JoiningThread.show();
 //        InterruptingThread.show();
-        RaceCondition.show();
+//        RaceCondition.show();
+//        ConfinementThreadSafe.show();
+        LocksThreadSafe.show();
     }
 
 }

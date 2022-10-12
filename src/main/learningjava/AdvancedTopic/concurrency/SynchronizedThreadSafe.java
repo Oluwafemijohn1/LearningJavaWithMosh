@@ -3,7 +3,7 @@ package main.learningjava.AdvancedTopic.concurrency;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RaceCondition {
+public class SynchronizedThreadSafe {
     public static void show() {
         var status = new DownloadStatus();
         List<Thread> threads = new ArrayList<>();

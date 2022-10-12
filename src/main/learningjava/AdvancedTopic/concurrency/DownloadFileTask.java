@@ -1,13 +1,29 @@
 package main.learningjava.AdvancedTopic.concurrency;
 
 public class DownloadFileTask implements Runnable {
-    private DownloadStatus status;
+
+    private final DownloadStatus status;
+    private boolean isLocked = false;
+
+    private boolean isSynchronized = false;
 
     public DownloadFileTask() {
+        this.status = new DownloadStatus();
     }
-    public DownloadFileTask(DownloadStatus status) {
+
+    public DownloadFileTask(DownloadStatus status, boolean isLocked) {
         this.status = status;
+        this.isLocked = isLocked;
     }
+
+    public DownloadFileTask(DownloadStatus status, boolean isLocked, boolean isSynchronized) {
+        this.status = status;
+        this.isLocked = isLocked;
+        this.isSynchronized = isSynchronized;
+    }
+
+
+
 
 
 
@@ -25,11 +41,21 @@ public class DownloadFileTask implements Runnable {
         //Simulating downloading a file
       for(int i = 0; i < 10_000; i++) {
           if (Thread.currentThread().isInterrupted()) return;
-          if(status != null )
+          if(status != null && isLocked)
+              status.incrementTotalBytesLock();
+          else if(status != null && isSynchronized)
+                status.incrementTotalBytesSync();
+          else if(status != null)
               status.incrementTotalBytes();
           else
               System.out.println("Downloading byte: " + i);
+
       }
         System.out.println("Download complete: " + Thread.currentThread().getName());
     }
+
+    public DownloadStatus getStatus() {
+        return status;
+    }
+
 }
