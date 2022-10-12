@@ -10,11 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConfinementThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/InterruptingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/JoiningThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/RaceCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GroupingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GroupingElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,26 +104,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcurrencyAndThreadingMain">
+  <component name="RunManager" selected="Application.main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain">
     <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.collections.CollectionsMain" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.learningjava.AdvancedTopic.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrencyAndThreadingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
-      <module name="LearningWithMosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.AdvancedTopic.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,9 +157,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.AdvancedTopic.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrencyAndThreadingMain" />
+        <item itemvalue="Application.main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
         <item itemvalue="Application.StreamMain" />
         <item itemvalue="Application.main.learningjava.AdvancedTopic.lambda.LambdaMain" />
         <item itemvalue="Application.CollectionsMain" />
