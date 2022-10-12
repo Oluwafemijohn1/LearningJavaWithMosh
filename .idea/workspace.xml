@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/VolatileKeywordThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/WaitingAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/VolatileKeywordThreadSafe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" afterDir="false" />
