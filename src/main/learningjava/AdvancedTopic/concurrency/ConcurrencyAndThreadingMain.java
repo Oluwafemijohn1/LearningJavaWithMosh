@@ -12,7 +12,8 @@ public class ConcurrencyAndThreadingMain {
 //        InterruptingThread.show();
 //        RaceCondition.show();
 //        ConfinementThreadSafe.show();
-        LocksThreadSafe.show();
+//        LocksThreadSafe.show();
+        SynchronizedThreadSafe.show();
     }
 
 }

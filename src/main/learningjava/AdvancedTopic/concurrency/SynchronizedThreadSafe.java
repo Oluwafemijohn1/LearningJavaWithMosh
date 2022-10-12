@@ -8,7 +8,7 @@ public class SynchronizedThreadSafe {
         var status = new DownloadStatus();
         List<Thread> threads = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            var thread = new Thread(new DownloadFileTask(status, false));
+            var thread = new Thread(new DownloadFileTask(status, false, true));
             thread.start();
             threads.add(thread);
         }
