@@ -4,7 +4,7 @@ public class WaitingAndNotify {
     public static void show() {
         var status = new DownloadStatus();
 
-        var thread1 = new Thread(new DownloadFileTask(status));
+        var thread1 = new Thread(new DownloadFileTask(status, false, false, true));
         var thread2 = new Thread(() -> {
             while (!status.isDone()) {
                 synchronized (status) {
@@ -16,11 +16,11 @@ public class WaitingAndNotify {
                     }
                 }
             }
+            System.out.println("Status: " + status.getTotalBytes());
         });
         thread1.start();
         thread2.start();
 
 
-        System.out.println("Status: " + status.getTotalBytes());
     }
 }

@@ -1,10 +1,14 @@
 package main.learningjava.AdvancedTopic.concurrency;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DownloadStatus {
     private int totalBytes;
+
+
+    private AtomicInteger totalBytesAtomic = new AtomicInteger();
     private  int totalFiles;
     private Lock lock = new ReentrantLock();
 
@@ -23,6 +27,11 @@ public class DownloadStatus {
         // 1. Read the value of totalBytes into the CPU register
         // 2. Increment the value in the register
         // 3. Write the value back to the main memory
+    }
+
+    public void incrementTotalBytesAtomic() {
+        totalBytesAtomic.incrementAndGet(); // === ++totalBytesAtomic
+//        totalBytesAtomic.getAndIncrement(); // === totalBytesAtomic++
     }
 
     public void incrementTotalBytesLock() {
@@ -60,6 +69,10 @@ public class DownloadStatus {
 
     public void setDone() {
         isDone = true;
+    }
+
+    public int getTotalBytesAtomic() {
+        return totalBytesAtomic.get();
     }
 
 }
