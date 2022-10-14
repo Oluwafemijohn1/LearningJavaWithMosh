@@ -8,7 +8,7 @@ public class AdderSafeThread {
         var status = new DownloadStatus();
         List<Thread> threads = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            var thread = new Thread(new DownloadFileTask(status, false, false, false, false));
+            var thread = new Thread(new DownloadFileTask(status, false, false, false, false, true));
             thread.start();
             threads.add(thread);
         }
@@ -21,6 +21,6 @@ public class AdderSafeThread {
             }
         }
 
-        System.out.println("Status: " + status.getTotalBytes());
+        System.out.println("Status: " + status.getTotalBytesAdder());
     }
 }

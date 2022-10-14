@@ -7,6 +7,7 @@ public class DownloadFileTask implements Runnable {
     private boolean isSynchronized = false;
     private boolean isWait = false;
     private boolean isAtomic = false;
+    private boolean isAdder = false;
 
     public DownloadFileTask() {
         this.status = new DownloadStatus();
@@ -41,6 +42,15 @@ public class DownloadFileTask implements Runnable {
         this.isAtomic = isAtomic;
     }
 
+    public DownloadFileTask(DownloadStatus status, boolean isLocked, boolean isSychronized, boolean isWait, boolean isAtomic, boolean isAdder) {
+        this.status = status;
+        this.isLocked = isLocked;
+        this.isSynchronized = isSychronized;
+        this.isWait = isWait;
+        this.isAtomic = isAtomic;
+        this.isAdder = isAdder;
+    }
+
 
     @Override
     public void run() {
@@ -62,6 +72,8 @@ public class DownloadFileTask implements Runnable {
                 status.incrementTotalBytesSync();
           else if( status != null && isAtomic)
               status.incrementTotalBytesAtomic();
+            else if( status != null && isAdder)
+                status.incrementTotalBytesAdder();
           else if(status != null)
               status.incrementTotalBytes();
           else

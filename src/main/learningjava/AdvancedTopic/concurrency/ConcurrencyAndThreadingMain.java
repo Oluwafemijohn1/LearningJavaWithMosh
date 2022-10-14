@@ -16,7 +16,9 @@ public class ConcurrencyAndThreadingMain {
 //        SynchronizedThreadSafe.show();
 //        VolatileKeywordThreadSafe.show();
 //        WaitingAndNotify.show();
-        AtomicSafeThread.show();
+//        AtomicSafeThread.show();
+        AdderSafeThread.show();
+        SychronizedCollections.show();
     }
 
 }

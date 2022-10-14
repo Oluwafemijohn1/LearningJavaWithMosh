@@ -10,13 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/AdderSafeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/AtomicSafeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrentCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/SychronizedCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/CallableAndFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/CombiningCompletableFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/CompletableFutureErrorHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/ComposingCompletableAsync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/ExecutiveFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/LongTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/RunningCodeOnCompletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/executors/TransformingCompletableFuture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/AdderSafeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/AdderSafeThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/DownloadStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/WaitingAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/AdvancedTopic/concurrency/WaitingAndNotify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/ConcurrencyAndThreadingMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/DownloadFileTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/DownloadStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/concurrency/DownloadStatus.class" afterDir="false" />
@@ -103,26 +114,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain">
+  <component name="RunManager" selected="Application.main.learningjava.AdvancedTopic.executors.ExecutiveFramework">
     <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.collections.CollectionsMain" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.learningjava.AdvancedTopic.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.generics.GenericsMain" />
-      <module name="LearningWithMosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.AdvancedTopic.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,13 +167,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.learningjava.AdvancedTopic.executors.ExecutiveFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.executors.ExecutiveFramework" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.AdvancedTopic.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.learningjava.AdvancedTopic.executors.ExecutiveFramework" />
         <item itemvalue="Application.main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
         <item itemvalue="Application.StreamMain" />
         <item itemvalue="Application.main.learningjava.AdvancedTopic.lambda.LambdaMain" />
         <item itemvalue="Application.CollectionsMain" />
-        <item itemvalue="Application.GenericsMain" />
       </list>
     </recent_temporary>
   </component>

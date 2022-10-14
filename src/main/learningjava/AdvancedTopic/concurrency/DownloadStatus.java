@@ -1,6 +1,7 @@
 package main.learningjava.AdvancedTopic.concurrency;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.LongAdder;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -9,6 +10,7 @@ public class DownloadStatus {
 
 
     private AtomicInteger totalBytesAtomic = new AtomicInteger();
+    private LongAdder totalBytesAdder = new LongAdder();
     private  int totalFiles;
     private Lock lock = new ReentrantLock();
 
@@ -32,6 +34,10 @@ public class DownloadStatus {
     public void incrementTotalBytesAtomic() {
         totalBytesAtomic.incrementAndGet(); // === ++totalBytesAtomic
 //        totalBytesAtomic.getAndIncrement(); // === totalBytesAtomic++
+    }
+
+    public void incrementTotalBytesAdder() {
+        totalBytesAdder.increment();
     }
 
     public void incrementTotalBytesLock() {
@@ -73,6 +79,10 @@ public class DownloadStatus {
 
     public int getTotalBytesAtomic() {
         return totalBytesAtomic.get();
+    }
+
+    public int getTotalBytesAdder() {
+        return totalBytesAdder.intValue();
     }
 
 }
