@@ -63,6 +63,22 @@ public class ExecutiveFramework {
         /**
          * Combining CompletableFuture
          * */
-        CombiningCompletableFuture.show();
+//        CombiningCompletableFuture.show();
+
+        /**
+         * Waiting for many task of CompletableFuture
+         * */
+//        WaitingForManyTaskOfCompletableFuture.show();
+
+        /**
+         * Waiting for the first task
+         * */
+        WaitingForTheFirstTask.show();
+
+        /**
+         * Handling time out
+         * */
+        HandlingTimeOut.show();
     }
+
 }
