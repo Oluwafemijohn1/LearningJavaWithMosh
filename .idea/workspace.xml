@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="" />
+    <list default="true" id="0f6a4aaf-d5b0-4a40-9a08-496d361262c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learningjava/java/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/learningjava/java/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/ListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/MapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/SetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/collections/SetDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/executors/WaitingForTheFirstTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/executors/WaitingForTheFirstTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/GenericsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/generics/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/CollectorStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/CollectorStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GroupingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/GroupingElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/ReducersStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/AdvancedTopic/stream/ReducersStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/java/CompileTimeErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/java/CompileTimeErrors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/learningjava/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/learningjava/java/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +107,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaskMain">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CompileTimeErrors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.CompileTimeErrors" />
+      <module name="LearningWithMosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.learningjava.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.lambda.LambdaMain" />
       <module name="LearningWithMosh" />
@@ -106,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.stream.StreamMain" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.Main" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.learningjava.AdvancedTopic.stream.*" />
+          <option name="PATTERN" value="main.learningjava.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,25 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.learningjava.java.Test" />
       <module name="LearningWithMosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.learningjava.AdvancedTopic.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main.learningjava.AdvancedTopic.executors.ExecutiveFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.learningjava.AdvancedTopic.executors.ExecutiveFramework" />
-      <module name="LearningWithMosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.learningjava.AdvancedTopic.executors.*" />
+          <option name="PATTERN" value="main.learningjava.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,10 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LambdaMain" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CompileTimeErrors" />
         <item itemvalue="Application.TaskMain" />
-        <item itemvalue="Application.main.learningjava.AdvancedTopic.executors.ExecutiveFramework" />
-        <item itemvalue="Application.main.learningjava.AdvancedTopic.concurrency.ConcurrencyAndThreadingMain" />
-        <item itemvalue="Application.StreamMain" />
       </list>
     </recent_temporary>
   </component>
