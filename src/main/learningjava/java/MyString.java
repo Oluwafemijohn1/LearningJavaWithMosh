@@ -13,6 +13,7 @@ public class MyString  {
         System.out.println(message.toLowerCase());
         System.out.println(message.length());
         System.out.println(message.charAt(0));
+        System.out.println(message.startsWith(" "));
         System.out.println(message.charAt(message.length() - 1));
         System.out.println(message.substring(0, message.length() - 1));
         System.out.println(message.substring(0, message.length() - 1).toUpperCase());

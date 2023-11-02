@@ -30,7 +30,7 @@ public class MyArray {
         nums3[1][0] = 3;
         System.out.println(Arrays.deepToString(nums3));
 
-        //three dimensional array
+        //three-dimensional array
         int[][][] nums4 = new int[3][3][3];
         nums4[0][0][0] = 1;
         nums4[0][0][1] = 2;
@@ -39,7 +39,7 @@ public class MyArray {
         System.out.println(Arrays.deepToString(nums4));
 
 
-        //another way to create a two dimensional array
+        //another way to create a two-dimensional array
         int[][] nums5 = {{1, 2, 3}, {4, 5, 6}, {7, 8}};
         System.out.println(Arrays.deepToString(nums5));
 
